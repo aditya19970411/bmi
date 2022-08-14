@@ -1,0 +1,21 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "Calculate the BMI",
+  "main": "index.js",
+  "repository": "git@github.com:aditya19970411/bmi.git",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "Aditya Jain",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
