@@ -21,7 +21,7 @@ test("Array of Inputs", () => {
     calculateBMI([{ Gender: "Male", HeightCm: 171, WeightKg: 96 }])
   ).toStrictEqual([
     {
-      bmi: "32.83",
+      bmi: "32.8",
       WeightKg: 96,
       HeightCm: 171,
       Gender: "Male",
