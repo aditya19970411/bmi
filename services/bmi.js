@@ -39,7 +39,7 @@ function calculateBMI(weightHeightJson = []) {
       res[index] = {};
       return;
     }
-    let bmi = (WeightKg / Math.pow(HeightCm / 100, 2)).toFixed(2);
+    let bmi = (WeightKg / Math.pow(HeightCm / 100, 2)).toFixed(1);
     let resObj = { bmi, WeightKg, HeightCm, Gender };
     if (memo[bmi]) {
       resObj.condition = memo[bmi];
