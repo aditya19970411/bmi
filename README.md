@@ -20,4 +20,9 @@ BMI calculator
                 condition
                }]
  
- 
+
+## HOST
+  Hosted on Hiroku - https://bmi-calculator-task.herokuapp.com/
+  
+## CI
+  Via github actions for nodejs
